@@ -169,7 +169,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             keyboard = InlineKeyboardMarkup([
                 [InlineKeyboardButton("HELP", callback_data="help_data"),
                     InlineKeyboardButton("ABOUT", callback_data="about_data")],
-                [InlineKeyboardButton("⭕️ JOIN OUR CHANNEL ⭕️", url="https://https://t.me/HDMOVIECOUNTER")]
+                [InlineKeyboardButton("⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/HDMOVIECOUNTER")]
             ])
 
             await query.message.edit_text(
@@ -184,7 +184,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             keyboard = InlineKeyboardMarkup([
                 [InlineKeyboardButton("BACK", callback_data="start_data"),
                     InlineKeyboardButton("ABOUT", callback_data="about_data")],
-                [InlineKeyboardButton("⭕️ SUPPORT ⭕️", url="https:https://t.me/HDMOVIECOUNTER")]
+                [InlineKeyboardButton("⭕️ SUPPORT ⭕️", url="https://t.me/HDMOVIECOUNTER_GROUP")]
             ])
 
             await query.message.edit_text(
